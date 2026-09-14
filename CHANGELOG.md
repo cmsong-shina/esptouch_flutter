@@ -1,3 +1,9 @@
+## 1.0.1
+
+* Replace `jcenter()` with `mavenCentral()` for compatibility with Gradle 9.
+* Update the Android Gradle Plugin to 8.13.2, raise `compileSdk` to 36, and migrate to the `lint` DSL.
+* Support Dart 3 by expanding the SDK constraint to `>=2.12.0 <4.0.0`.
+
 ## 1.0.0
 
 * Migrate package to Dart's null safety language feature, requiring Dart 2.12 or higher. Close [`esptouch_flutter #17`](https://github.com/smaho-engineering/esptouch_flutter/issues/17).
