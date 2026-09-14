@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'esptouch_flutter'
-  s.version          = '0.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
 A new flutter plugin project.
@@ -12,10 +12,10 @@ A new flutter plugin project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  s.source_files = 'esptouch_flutter/Sources/esptouch_flutter/**/*.{h,m}'
+  s.public_header_files = 'esptouch_flutter/Sources/esptouch_flutter/include/esptouch_flutter/*.h'
+  s.frameworks = 'Foundation', 'UIKit', 'SystemConfiguration'
   s.dependency 'Flutter'
 
   s.ios.deployment_target = '8.0'
 end
-

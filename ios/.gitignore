@@ -8,6 +8,8 @@
 profile
 
 DerivedData/
+.build/
+.swiftpm/
 build/
 GeneratedPluginRegistrant.h
 GeneratedPluginRegistrant.m

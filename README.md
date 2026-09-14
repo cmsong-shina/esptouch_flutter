@@ -24,6 +24,21 @@ This package provides a high customizability to the ESP Touch tasks and an idiom
 
 ## Usage
 
+### iOS dependency management
+
+The iOS plugin supports Swift Package Manager and CocoaPods. For Swift Package
+Manager, use Flutter 3.44 or later, Xcode 15 or later, and an iOS 13.0 or later
+deployment target. Flutter resolves the plugin's local package and its
+`FlutterFramework` dependency when building your app.
+
+Run `flutter pub get` and `flutter build ios --simulator` in your app to build
+with Swift Package Manager. See the [Flutter Swift Package Manager guide](https://docs.flutter.dev/packages-and-plugins/swift-package-manager/for-app-developers)
+for enabling it in projects where it has been disabled.
+
+The package manifest is `ios/esptouch_flutter/Package.swift`. CocoaPods uses the
+same Objective-C sources through `ios/esptouch_flutter.podspec`.
+The repository's example app uses Swift Package Manager and targets iOS 15.0+.
+
 ### Example app
 
 <img src="https://github.com/smaho-engineering/esptouch_flutter/raw/master/example/screenshots/simple_config.png?raw=true" alt="GIF Flutter plugin esptouch_flutter - Example app in action" height="500"/>

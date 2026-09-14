@@ -8,13 +8,14 @@
 
 //  The usage of NSCondition refer to: https://gist.github.com/prachigauriar/8118909
 
-#import "ESPTouchTask.h"
-#import "ESP_ByteUtil.h"
-#import "ESPTouchGenerator.h"
-#import "ESPUDPSocketClient.h"
-#import "ESPUDPSocketServer.h"
-#import "ESP_NetUtil.h"
-#import "ESPTouchTaskParameter.h"
+#import "include/esptouch_flutter/ESPTouchTask.h"
+#import <UIKit/UIKit.h>
+#import "include/esptouch_flutter/ESP_ByteUtil.h"
+#import "include/esptouch_flutter/ESPTouchGenerator.h"
+#import "include/esptouch_flutter/ESPUDPSocketClient.h"
+#import "include/esptouch_flutter/ESPUDPSocketServer.h"
+#import "include/esptouch_flutter/ESP_NetUtil.h"
+#import "include/esptouch_flutter/ESPTouchTaskParameter.h"
 
 #define ONE_DATA_LEN    3
 

@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 白 桦. All rights reserved.
 //
 
-#import "ESPTouchTaskParameter.h"
+#import "include/esptouch_flutter/ESPTouchTaskParameter.h"
 
 @interface ESPTaskParameter ()
 @property(nonatomic, assign) long intervalGuideCodeMillisecond;

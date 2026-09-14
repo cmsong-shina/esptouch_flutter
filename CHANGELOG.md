@@ -1,3 +1,8 @@
+## 1.1.0
+
+* Add iOS Swift Package Manager support with a shared source layout for CocoaPods.
+* Migrate the example app to Swift Package Manager, Flutter 3.44+, Dart 3 support, and iOS 15+.
+
 ## 1.0.1
 
 * Replace `jcenter()` with `mavenCentral()` for compatibility with Gradle 9.
